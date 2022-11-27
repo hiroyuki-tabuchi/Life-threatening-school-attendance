@@ -239,8 +239,8 @@ class MyCharacter:
             pl_d = 2
             if maze[pl_y][pl_x-1] != 9:
                 pl_xs = pl_xs - 1
-                if pl_xs == 2:
-                    pl_x = pl_x + 1
+                if pl_xs == -2:
+                    pl_x = pl_x - 1
                     pl_xs = 0
         if key[K_RIGHT] == 1:
             pl_d = 3
