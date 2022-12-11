@@ -213,6 +213,24 @@ sound/
 font/
     ┗ ipaexg.ogg
     
+【セーブデータ】
+data/
+ ┣ data1/
+    ┃    ┣ save_data1.txt
+    ┃    ┣ save_data_maze_list1.txt
+    ┃    ┣ save_data_map_move_list1.txt
+    ┃    ┗ save_data_attack_item_list1.txt
+    ┣ data2/
+    ┃    ┣ save_data2.txt
+    ┃    ┣ save_data_maze_list2.txt
+    ┃    ┣ save_data_map_move_list2.txt
+    ┃    ┗ save_data_attack_item_list2.txt
+    ┗ data3/
+            ┣ save_data3.txt
+            ┣ save_data_maze_list3.txt
+            ┣ save_data_map_move_list3.txt
+            ┗ save_data_attack_item_list3.txt
+    
 【拡張内容】
 ・爆弾アイテム実装
 ・メニュー画面
